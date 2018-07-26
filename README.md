@@ -8,7 +8,7 @@ open folder `_includes` then create file `dropboxplayer.html` with this code:
   <iframe
       width="640"
       height="480"
-      src="https://www.dropbox.com/s/{{ include.id }}"
+      src="https://www.dropbox.com/s/{{ include.id }}?raw=1"
       frameborder="0"
       allowfullscreen="">
   </iframe>
